@@ -1,0 +1,13 @@
+.App {
+  &, .row, .content, aside {
+    height: 100%;
+  }
+
+  .content, aside {
+    overflow-y: scroll;
+  }
+
+  aside {
+    border-right: 1px solid #ccc;
+  }
+}

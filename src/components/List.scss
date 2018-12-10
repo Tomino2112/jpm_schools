@@ -1,0 +1,26 @@
+ul.list {
+  li {
+    border-bottom: 1px solid #ccc;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &.selected {
+      background-color: lightsteelblue;
+    }
+  }
+
+  li button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: none;
+    text-align: left;
+
+    &:focus {
+      border: none;
+      outline: none;
+    }
+  }
+}
